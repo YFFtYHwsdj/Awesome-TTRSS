@@ -1,0 +1,17 @@
+{
+  "envId": "{{env.ENV_ID}}",
+  "version": "2.0",
+  "framework": {
+    "name": "php-ttrss",
+    "plugins": {
+      "container": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "serviceName": "php-ttrss",
+          "servicePath": "/php-ttrss",
+          "containerPort": 8080
+        }
+      }
+    }
+  }
+}
